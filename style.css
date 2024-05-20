@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 400px;
+    flex-basis: 300px;
+    padding: 15px;
+}
+
+.display {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    overflow: auto;
+    padding: 10px 20px;
+    text-align: right;
+    border-radius: 5px;
+    font-family: inherit;
+    margin-bottom: 5px;
+}
+
+.n-row {
+    display: flex;
+    justify-content: space-between
+}
+
+button {
+    margin: 2% 0;
+    background: rgba(25, 255, 255, 0.5);
+    flex-basis: 23%;
+    border: inherit;
+    font-family: inherit;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover {
+    background:rgba(255, 255, 50, 0.5)
+}
+
+button:last-child {
+    background: rgba(25, 255, 25, 0.5);
+}
+
+button:last-child:hover {
+    background: rgba(255, 130, 255, 0.5);
+}
+
+button.L {
+    background: rgba(25, 255, 25, 0.5);    width: 100px;
+}
+
+button.L:hover {
+    background: rgba(255, 130, 255, 0.5);    width: 100px;
+}
+
+.L, .A {
+    flex-basis: 48.7%;
+}
+
+.I {
+    flex-basis: 100%;
+}
